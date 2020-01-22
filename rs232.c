@@ -39,7 +39,7 @@
 #define RS232_PORTNR  38
 
 
-int Cport[RS232_PORTNR],
+static int Cport[RS232_PORTNR],
     error;
 
 struct termios new_port_settings,
